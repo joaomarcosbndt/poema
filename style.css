@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  header {
+    height: 120px;
+    background-color: red;
+    color: white;
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.422);
+    padding-top: 40px;
+    
+  }
+
+  header h1 {
+    font-variant: small-caps;
+    font-size: 6vw;
+  }
+
+  header a {
+    color: white;
+    font-family: 'Passion One', cursive;
+    text-decoration: none;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+
+  header a:hover {
+    text-decoration: underline;
+  }
+
+  header p {
+    padding-bottom: 50px;
+    font-family: 'Passion One', cursive;
+    font-size: 1em;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-top: 5px;
+    
+  }
+
+  section {
+    font-family: 'Sriracha', cursive;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 3.5vw;
+    color: red;
+  }
+
+  section.normal p {
+    padding-bottom:2em;
+  }
+
+  section.img {
+    color: white;
+    background-color: red;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
+    
+  }
+
+  section.img p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    color: red;
+  }
+
+  section#flor {
+    background-image: url(imagens/photo1694788489.jpeg);
+    background-position: right center;
+    background-size: cover;
+  }
+
+  section#livro {
+    background-image: url(imagens/photo1694788647.jpeg);
+    background-position: right center;
+    background-size: cover;
+  }
+
+  footer {
+    font-family: 'Passion One', cursive;
+    background-color: red;
+    text-align: center;
+    padding: 4px;
+    font-weight: normal;
+    color: white;
+  }
+
+  footer a {
+    font-family: 'Passion One', cursive;
+    text-decoration: none;
+    font-weight: normaç;
+    color: white;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
